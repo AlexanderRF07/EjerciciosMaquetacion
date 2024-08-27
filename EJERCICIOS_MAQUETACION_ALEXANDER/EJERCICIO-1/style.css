@@ -1,0 +1,80 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(0, 45%, 44%);
+}
+
+body {
+    background-color: rgba(244, 208, 78, 1);
+    display: flex;
+
+
+}
+
+.tarjeta {
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(248, 245, 245);
+    color: rgb(2, 10, 17);
+    height: 520px;
+    width: 350px;
+    box-shadow: 12px 12px 10px rgba(0, 0, 0, 19);
+    border-radius: 20px;
+    text-align: center;
+    border: 1px solid #000;
+}
+.boton{
+    background-color: rgba(244, 208, 78, 1);
+    position: relative;
+    top: 30px;
+    left: -120px;
+    border-color: rgba(244, 208, 78, 1);
+     
+}
+.log {
+    position: relative;
+    top: 20px;
+    height: 220px; 
+
+}
+.text1{
+position: relative;
+top: 20px;
+}
+
+.logouser {
+    position: relative;
+    top: 0px;
+    left: -130px;
+    width: 42px;
+    height: 42px;
+    border-radius: 20px;
+    text-align: left 20px;
+}
+.alex{
+position: relative;
+left: 0px;
+top : -55px;
+
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
